@@ -1,5 +1,5 @@
 body {
-    columns: #22222px;;
+    background: #E5E5E5;;
     font-family: Roboto,sans-serif;
 }
 .logo-header {
@@ -12,6 +12,7 @@ body {
 .logo-blue {
  color:#2196F3;
 }
+
 .logo-black {
     color: #212121;
 }
@@ -23,7 +24,6 @@ body {
     margin: 0 auto;
 }
     
-
 .container-nav {
     width: 1230px;  
     padding-right: 15px;
