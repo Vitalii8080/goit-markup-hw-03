@@ -14,8 +14,57 @@ body {
 }
 .logo-black {
     color: #212121;
-
 }
+.container-nav {
+    width: 1230px;  
+    padding-right: 15px;
+    padding-left: 15px;
+    margin: 0 auto;
+}
+.site-nav {
+    display: flex;
+}
+.site-nav  .item {
+  
+    background-color: tomato;
+}
+.site-nav  .item:not(:last-child) {
+    margin-right:  50.34px;
+}
+
+
+.container-hero {
+    width: 1230px;
+    height: 120px;
+    text-align: center;
+    padding-top:200px;
+    padding-bottom: 280px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin: 0 auto;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #FFFFFF;  
+    background: rgba(47, 48, 58, 0.8);
+    
+}
+.button-order {
+
+    width: 200px;
+    height: 50px;
+    left: 700px;
+    top: 430px;
+    background: #2196F3;
+    border-radius: 4px;
+    letter-spacing: 0.06em;
+    color: #FFFFFF;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 32px;
+    padding-right: 32px;
+    margin-top: 30px;
+}
+
 .list {
 list-style: none;
 }
@@ -28,6 +77,16 @@ list-style: none;
     line-height: 16px;
     letter-spacing: 0.02em;
 }
+.list .list-item-studio a {
+  
+
+}
+.list-item-potfolio a {
+
+}
+
+
 .list a:hover,
 .list a:focus {
     color: #2196F3;
+}
