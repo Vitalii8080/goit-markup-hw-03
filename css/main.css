@@ -1,3 +1,6 @@
+
+
+
 body {
     background: #E5E5E5;;
     font-family: Roboto,sans-serif;
@@ -35,7 +38,7 @@ body {
 .main-nav {
     display: flex;
     align-items: center;
-    justify-content: ;
+    
 }
 .site-nav {
     display: flex;
@@ -114,4 +117,36 @@ body {
     padding-left: 32px;
     padding-right: 32px;
     margin-top: 30px;
+}
+/* features */
+
+.feature-container {
+    width: 1230px;  
+    padding-right: 15px;
+    padding-left: 15px;
+    margin: 0 auto;  
+}
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.flex-element {
+    width: 270px;
+    background-color: tomato;
+    margin-right: 30px;
+    margin-bottom: 94px;
+    margin-top: 94px;
+}
+
+/* portfolio css */
+
+.container-project {
+    width: 1230px;  
+    padding-right: 15px;
+    padding-left: 15px;
+    margin: 0 auto;  
+}
+.project {
+    display: flex;
 }
