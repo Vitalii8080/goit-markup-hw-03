@@ -4,6 +4,7 @@
 body {
     background: #E5E5E5;;
     font-family: Roboto,sans-serif;
+    margin: 0;
 }
 .logo-header {
     font-family: Raleway;
@@ -87,15 +88,16 @@ body {
     }
 
 
-.hero-title {
-    width: 1230px;
+.hero {
+    display: block;
+    width: 1600px;
     height: 120px;
+    margin-left: auto;
+    margin-right: auto;
     text-align: center;
-    padding-top:200px;
+    padding-top:  200px;
     padding-bottom: 280px;
-    padding-right: 15px;
-    padding-left: 15px;
-    margin: 0 auto;
+    margin-bottom: 30px;
     letter-spacing: 0.06em;
     text-transform: uppercase;
     color: #FFFFFF;  
@@ -103,21 +105,24 @@ body {
     
 }
 .button-order {
-
+    display: inline-block;
+    background: #2196F3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px; 
+    padding: 10px 32px;   
     width: 200px;
     height: 50px;
-    left: 700px;
-    top: 430px;
-    background: #2196F3;
-    border-radius: 4px;
+    left: 732px;
+    top: 440px;
+    font-size: 16px;
+    line-height: 30px;
     letter-spacing: 0.06em;
     color: #FFFFFF;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-left: 32px;
-    padding-right: 32px;
-    margin-top: 30px;
+
 }
+
+
+
 /* features */
 
 .feature-container {
@@ -138,6 +143,9 @@ body {
     margin-bottom: 94px;
     margin-top: 94px;
 }
+.flex-element:last-child {
+    margin-right: 0;
+}
 
 /* portfolio css */
 
@@ -145,8 +153,18 @@ body {
     width: 1230px;  
     padding-right: 15px;
     padding-left: 15px;
-    margin: 0 auto;  
+    margin-left: auto; 
+    margin-right: auto ; 
 }
-.project {
+.project-list {
     display: flex;
+    flex-wrap: wrap;
+}
+.project-list-item:nth-child(3n) {
+    margin-right: 0;
+}
+.project-list-item {
+    width: 370px;
+    margin-right: 30px;
+    margin-bottom: 30px;
 }
