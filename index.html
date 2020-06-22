@@ -4,11 +4,11 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=, initial-scale=1.0">
   <title>Web Studio</title>
-  <link
+     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/0.6.0/modern-normalize.min.css"
     /> 
-  <link rel="stylesheet" href="./css/main.css">
+     <link rel="stylesheet" href="./css/main.css">
 </head>
 <body>
 
@@ -29,8 +29,8 @@
       </ul>
 
         <ul class="contacts-nav list" >
-          <li class="item" ><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-          <li class="item" ><a href="tel:+38 096 111 11 11">+38 096 111 11 11</a></li> 
+          <li class="item-mail" ><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+          <li class="item-tel" ><a href="tel:+38 096 111 11 11">+38 096 111 11 11</a></li> 
           </ul>
         </nav>
         
@@ -40,13 +40,16 @@
       <section class="hero">
         <h1 class="hero-title">
           ЭФФЕКТИВНЫЕ РЕШЕНИЯ <br/>ДЛЯ ВАШЕГО БИЗНЕССА</h1>
-        <a href="" class="button-order" >Заказать услугу</a>
+        <a href="" class="button-service" >Заказать услугу</a>
       </section>
-      
+
+      <!-- feature-container -->
+
       <div class="feature-container">
       <div class="flex-container">
        <div  class="flex-element">
-          <img src="./logo/antenna 1.svg" alt="antenna">
+         <img src="./logo/antenna 1.svg" alt="antenna">
+          
           <h3>Внимание к деталям</h3>
           <p>Идейные соображения, а также <br/>начало повседневной работы по<br/> формированию позиции.</p>
        </div>
@@ -68,7 +71,6 @@
         </div>
       
      
-      
         <div class="flex-element">
            <img src="./logo/astronaut 1.svg" alt="astronaut">
            <h3>Современные технологии</h3>
@@ -77,16 +79,29 @@
         
        </div>
       </div>
-      <section>
-        <h2>Чем мы занимаемся</h2>
-    
+
+      <div class="business-container">
+        
+        
+        <h2 class="text">Чем мы занимаемся</h2>
+        
+
+        <div class="box-container">
+
+    <div class="box-element">
     <img src="./logo/img.svg" alt="deckstops-apps">
      <h3>Десктопные приложения</h3>
+    </div>
+    <div class="box-element">
      <img src="./logo/box.svg" alt="mobile-apps">
      <h3>Мобильные приложения</h3>
+    </div>
+    <div class="box-element">
      <img src="./logo/img (1).svg" alt="designs">
      <h3>Дизайнерские решения</h3>
-      </section>
+    </div>
+    </div>
+     </div>
      
 
      <h2>Наша команда</h2>
