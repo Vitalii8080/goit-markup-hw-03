@@ -34,7 +34,7 @@ a {
 .site-nav-main,
 .site-nav-contacts {
     display: inline-flex;
-    justify-content: space-between;
+    
     
 }
 
@@ -96,6 +96,9 @@ a {
  margin-right: 30px;
 }
 .site-nav-contacts {
+    padding-top: 32px;
+    padding-bottom: 22px;
+    margin-left: 305px;
     font-weight: 500;
     font-size: 14px;
     line-height: 16px;
@@ -106,10 +109,12 @@ a {
 .e-mail {
     width: 135px;
     height: 16px;
-    padding-top: 32px;
-    padding-bottom: 22px;
-    margin-left: 305px;
     
+    
+}
+.tel {
+    width: 142px;
+    height: 15.8px;
 }
 
 /* .hero-section */
