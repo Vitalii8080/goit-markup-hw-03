@@ -21,19 +21,18 @@ a {
 /* header */
 
 .site-header {
-        width: 1230px; 
-        height: 80px; 
-        padding-right: 15px;
-        padding-left: 15px;
-        margin: 0 auto;
-        background: #FFFFFF;
+    width: 1230px; 
+    height: 80px; 
+    padding-right: 15px;
+    padding-left: 15px;
+    margin: 0 auto;
+    background: #FFFFFF;
 }
-.site-header-content  {
-    
-}
+
+
 .site-nav-main,
 .site-nav-contacts {
-    display: inline-flex;
+    display: inline-flex;  
     
     
 }
@@ -162,7 +161,8 @@ a {
     
 .features-sections {
     width: 1230px; 
-     
+    padding-top: 94px;
+    padding-bottom: 94px;
     padding-right: 15px;
     padding-left: 15px;
     margin: 0 auto;
@@ -184,11 +184,6 @@ a {
 .features-item:last-child {
     margin-right: 0px;
 }
-.Rectangle-3 {
-    width: 270px;
-    height: 120px;
-    background: #F5F4FA;
-    border-radius: 4px; 
-    display: flex;  
-    align-items: center;
-}
+
+
+
