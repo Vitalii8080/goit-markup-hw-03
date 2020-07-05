@@ -160,6 +160,35 @@ a {
     color: #FFFFFF;
 }
     
-        
+.features-sections {
+    width: 1230px; 
+     
+    padding-right: 15px;
+    padding-left: 15px;
+    margin: 0 auto;
+    background: #FFFFFF; 
+}
+.fetures-element {
+    display: flex;
+    justify-content: space-between;
+    
 
+}
+
+.features-item {
+    width: 270px;
+    height: 251px;
+    display: block;
+    margin-right: 30px;
+}
+.features-item:last-child {
+    margin-right: 0px;
+}
+.Rectangle-3 {
+    width: 270px;
+    height: 120px;
+    background: #F5F4FA;
+    border-radius: 4px; 
+    display: flex;  
+    align-items: center;
 }
