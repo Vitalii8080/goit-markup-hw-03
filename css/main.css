@@ -380,18 +380,27 @@ h1, h2, h3, {
     
 
 }
-.ad-title {
+.str-title {
     font-weight: normal;
     font-size: 14px;
     line-height: 24px;
     letter-spacing: 0.03em;
     color: #FFFFFF;
     margin: 0 auto;
+    padding-top: 10px;
 }
 .foot-cont {
     margin: 0 auto;
     list-style: none;
     padding: 0;
+}
+.cont-item {
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+    
+
 }
 .join {
     width: 206px;
