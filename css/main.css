@@ -1,5 +1,15 @@
 
-
+:root {
+    --title-color: #000000;
+    --accent-color: #18a0fb;
+    --text-shadow: 0 0 5px #555;
+    --font-logo: 'Comfortaa', 'Segoe UI', sans-serif;
+    --font-text: 'Montserrat', 'Segoe UI', sans-serif;
+  
+    --shadow-color: rgba(0, 0, 0, 0.15);
+    --text-color: rgba(0, 0, 0, 0.8);
+    --background-color: #FFFFFF;
+  }
 body {
      
     font-family: Roboto,sans-serif;
@@ -23,21 +33,29 @@ h1, h2, h3, {
 }
 /* header */
 
-.site-header {
+.hd-section {
+    width: 1600px;
+    height: 80px;
+    background: #FFFFFF;
+    margin: 0 auto;
+}
+.header-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.common-container {
     width: 1230px; 
     height: 80px; 
     padding-right: 15px;
     padding-left: 15px;
     margin: 0 auto;
-    background: #FFFFFF;
+    
 }
 
-
-.site-nav-main,
-.site-nav-contacts {
-    display: inline-flex;  
-    
-    
+.nav-container {
+    display: flex;
+    align-items: center;
 }
 
 
@@ -48,8 +66,6 @@ h1, h2, h3, {
     font-weight: bold;
     line-height: 31px;
     letter-spacing: 0.03em;
-    padding-top: 24px;
-    padding-bottom: 26px;
     margin-right: 85px;
 }
 .logo-blu {
@@ -97,10 +113,13 @@ h1, h2, h3, {
 .site-nav-contacts-item:not(:last-child) {
  margin-right: 30px;
 }
+.container-address {
+    display: flex;
+    margin-left: auto;
+}
 .site-nav-contacts {
     padding-top: 32px;
     padding-bottom: 22px;
-    margin-left: 305px;
     font-weight: 500;
     font-size: 14px;
     line-height: 16px;
@@ -161,6 +180,8 @@ h1, h2, h3, {
     border-radius: 4px;   
     color: #FFFFFF;
 }
+/* features-section */
+
     
 .ft-sections {
     width:1600px; 
@@ -180,6 +201,7 @@ h1, h2, h3, {
 .fetures-element {
     display: flex;
     justify-content: space-between;
+    
     
 
 }
