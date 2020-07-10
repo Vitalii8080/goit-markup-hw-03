@@ -42,6 +42,7 @@ h1, h2, h3, {
 .header-container {
     display: flex;
     justify-content: space-between;
+    border-bottom: 1px solid #ECECEC;
 }
 
 .common-container {
@@ -238,6 +239,7 @@ h1, h2, h3, {
 }
 .what-we-do {
     text-align: center;
+    margin-top: 0;
 }
 .boxes-element {
     display: flex;
@@ -274,9 +276,10 @@ h1, h2, h3, {
 
 .employees {
     display:flex;
-    flex-wrap: wrap;
+    justify-content: center;
     margin-top: 50px;
     list-style: none;
+    padding: 0;
 }
 .participants {
     text-align: center;
@@ -309,9 +312,14 @@ h1, h2, h3, {
     margin-top: 10px;
 
 }
-.list {
-    display:flex;
-    justify-content: center;
+.social-icon {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+    padding: 0;
+    margin: 0 auto;
+}
     
 }
 /* client-section */
@@ -433,4 +441,66 @@ h1, h2, h3, {
     padding-top: 20px;
     margin: 0 auto;
     text-align: center;
+}
+
+
+/* portfolio-section */
+.portfolio-section {
+    width: 1600px;
+    height: 1360px;
+    margin: 0 auto;
+    background-color: #FFFFFF;
+}
+.port-content {
+    width: 1230px;
+    padding-top: 94px;
+    padding-bottom: 94px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.filters-button {
+    
+    height: 54px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 34px;
+    
+
+}
+.filter-1, .filter-2,
+ .filter-3, .filter-3,
+ .filter-4, .filter-5 {
+    height: 38px;
+    margin-right: 8px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.03em;
+    color: #212121;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.12), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 3px 1px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+    background: #F5F4FA;
+    
+}
+.filter-1:hover,
+.filter-2:hover,
+.filter-3:hover,
+.filter-4:hover,
+.filter-5:hover {
+    background: #2196F3;
+}
+.filter-1 {
+    
+}
+
+
+
+.project-section {}
+
+.project-item {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
 }
