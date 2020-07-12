@@ -254,6 +254,18 @@ h1, h2, h3, {
     margin: 0 auto;
     padding: 0;
 }
+.item-title {
+    padding: 27px;
+    margin: 0 auto;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    background: rgba(47, 48, 58, 0.8);
+    border-radius: 0px 0px 4px 4px;
+
 }
 
 
