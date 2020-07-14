@@ -504,14 +504,13 @@ img {
 /* portfolio-section */
 .portfolio-section {
     
-    
+    padding-top: 94px;
+    padding-bottom: 94px;
     margin: 0 auto;
     background-color: #FFFFFF;
 }
 .port-content {
-    width: 1230px;
-    padding-top: 94px;
-    padding-bottom: 94px;
+    width: 1200px;
     padding-right: 15px;
     padding-left: 15px;
     margin: 0 auto;
@@ -556,7 +555,6 @@ img {
     
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
     list-style: none;
     padding-left: 0;
 }
@@ -570,7 +568,7 @@ img {
     border-radius: 5px;
     
 }
-.projectz-item:nth-child(3n) {
+.project-item:nth-child(3n) {
    margin-right: 0;
 }
 .card-image {
