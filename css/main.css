@@ -51,7 +51,7 @@ img {
 }
 
 .common-container {
-    width: 1230px; 
+    width: 1200px; 
     height: 80px; 
     padding-right: 15px;
     padding-left: 15px;
@@ -160,7 +160,7 @@ img {
     
 }
 .hero-container {
-    width: 1230px;
+    width: 1200px;
     padding-right: 15px;
     padding-left: 15px;
     margin: auto;
@@ -205,7 +205,7 @@ img {
 }
 
 .fetures-content  {
-    width: 1230px; 
+    width: 1200px; 
     padding-top: 94px;
     padding-bottom: 94px;
     padding-right: 15px;
@@ -216,9 +216,8 @@ img {
 .fetures-element {
     display: flex;
     justify-content: space-between;
+    padding-left: 0;
     
-    
-
 }
 
 .features-item {
@@ -227,6 +226,11 @@ img {
     display: block;
     margin-right: 30px;
 }
+.antenna, .clock, .diagram, .astronaut {
+    margin: 0 auto;
+}
+
+
 .features-item:last-child {
     margin-right: 0px;
 }
@@ -239,7 +243,7 @@ img {
 
 
 .box-content {
-    width: 1230px;  
+    width: 1200px;  
     padding-top: 94px;
     padding-bottom: 94px;
     padding-right: 15px;
@@ -288,7 +292,7 @@ img {
     background: #F5F4FA;
 }
 .container-team {
-    width: 1230px;
+    width: 1200px;
     padding-right: 15px;
     padding-left: 15px;
     margin-left: auto;
@@ -359,7 +363,7 @@ img {
     background-color: #FFFFFF;
 }
 .client-content {
-    width: 1230px;
+    width: 1200px;
     padding-top: 94px;
     padding-bottom: 94px;
     padding-right: 15px;
@@ -395,7 +399,7 @@ img {
     display: flex;
     justify-content: space-between ;
     align-items: baseline;
-    width:1230px;
+    width:1200px;
     padding-top: 48px;
     padding-bottom: 28px;
     padding-right: 15px;
