@@ -226,9 +226,32 @@ img {
     display: block;
     margin-right: 30px;
 }
-.antenna, .clock, .diagram, .astronaut {
-    margin: 0 auto;
+
+.advantages-img {
+
+    padding: 25px 100px;
+    background: #F5F4FA;
+    border-radius: 4px;
+    
 }
+.section-title {
+    margin-top: 30px;
+    margin-bottom: 10px;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #212121;
+
+}
+.text-p {
+    margin: 0;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: #757575;
+}
+
 
 
 .features-item:last-child {
