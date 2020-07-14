@@ -12,7 +12,7 @@
   }
 body {
      
-    font-family: Roboto,sans-serif;
+    font-family: Roboto;
     background: #E5E5E5;
     color :black
     margin: 0;
@@ -201,13 +201,13 @@ img {
 .ft-sections {
     
     margin: 0 auto;
-    background: #FFFFFF; 
+    background: #FFFFFF;
+    padding-top: 94px;
+    padding-bottom: 94px; 
 }
 
 .fetures-content  {
     width: 1200px; 
-    padding-top: 94px;
-    padding-bottom: 94px;
     padding-right: 15px;
     padding-left: 15px;
     margin: 0 auto;
@@ -238,14 +238,14 @@ img {
 .bx-section {
     
     margin: 0 auto;
+    padding-top: 94px;
+    padding-bottom: 94px;
     background: #FFFFFF;
 }
 
 
 .box-content {
     width: 1200px;  
-    padding-top: 94px;
-    padding-bottom: 94px;
     padding-right: 15px;
     padding-left: 15px;
     margin: 0 auto;
