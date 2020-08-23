@@ -3,6 +3,13 @@
     --primary-white-color: #ffffff;
     --title-text-color: #212121;
     --accent-color: #2196f3;
+    --text-shadow: 0 0 5px #555;
+    --font-logo: 'Comfortaa', 'Segoe UI', sans-serif;
+    --font-text: 'Montserrat', 'Segoe UI', sans-serif;
+    --shadow-color: rgba(0, 0, 0, 0.15);
+    --text-color: rgba(0, 0, 0, 0.8);
+    --secondary-color:#afb1b8;
+    --accent-grey: #f5f4fa;
   }
   
   body {
@@ -56,6 +63,7 @@
   .nav-address {
     display: flex;
     align-items: center;
+    height: 81px;
   }
   
   .logo-header {
@@ -84,7 +92,7 @@
     letter-spacing: 0.02em;
     font-weight: 500;
   }
-  
+
   .address .item + .item {
     margin-left: 30px;
   }
@@ -107,29 +115,25 @@
     margin-left: 52px;
   }
   
-  .site-nav .link {
+  .nav-link {
     display: block;
     padding-top: 32px;
     padding-bottom: 32px;
-  
     color: var(--title-text-color);
-  
     font-weight: 500;
   }
-  
-  .site-nav .link.current {
+  .nav-link:hover, .nav-link:focus, .current {
     color: var(--accent-color);
-  }
+    outline: none;
+   }
   
-  .site-nav .link:hover,
-  .site-nav .link:focus {
-    color: var(--accent-color);
-  }
+  /* Section */
+  .section-title {
+  color: var(--title-text-color);
+  text-align: center;
+  font-size: 36px;
+}
   
-  .address .link:hover,
-  .address .link:focus {
-    color: var(--accent-color);
-  }
   
   /* Hero */
   
@@ -339,6 +343,11 @@
     font-size: 18px;
     line-height: 1.5;
     background-color: #2196f3;
+  }
+  .bfilters:hover {
+    background-color: var(--accent-color);
+    color: #FFFFFF;
+    
   }
   
   /* Footer */
